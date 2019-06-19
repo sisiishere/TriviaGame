@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    border: 0px;
+    background-color: rgba(255, 80, 89, 0.753);
+    color:rgb(255, 0, 13);
+
+
+}
+
+#Questions{
+    background-color: rgba(121, 0, 10, 0.712);
+    margin: 0px;
+    padding-bottom: 60px;
+    height: 15px;
+    color:rgb(255, 0, 13);
+
+}
+
+#Quest {
+    margin: 0;
+    padding: 25.5px;
+    border: 0;
+    background-color: #ff8993;
+    color: #630008;
+
+}
+
+#Results {
+    margin: 0;
+    padding: 25.5px;
+    border: 0;
+    background-color: #240003;
+    color:#ffc8cd;
+
+}
+
+.button {
+    background-color: rgba(212, 67, 74, 0.753); 
+    border: none;
+    color: rgb(175, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
