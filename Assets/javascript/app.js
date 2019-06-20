@@ -40,114 +40,99 @@ var displayResults = function() {
   var Timer = setTimeout( "setTimeFunction( )", -1000 ); 
   console.log(Timer);
 
- document.onclick = function (){
-    var userGuess = onclick;
-    array.push(userGuess);
-    console.log(userGuess);
 
-  ("soak").onclick = function add(Wins, Results){
-      return Wins + Results; 
-  }; 
-    add (Wins, Results);
+ $("#MonétXChange").on("click", function (){
+     console.log("CLicked");
+    document.getElementById("MonétXChange").innerHTML = "<img src = 'soak it up.jpg'/>"
+ });
 
-  ("notturnitout").onclick = function add(Losses, Results){
-      return Losses + Results; 
-  }; 
-    add (Losses, Results);
+ $("#NotMonét").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("NotMonét").innerHTML = "<img src = 'you are not turning it out.jpg'/>"
+ });
 
-  ("thankyou").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
+ $("#ErikaKlash").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("ErikaKlash").innerHTML = "<img src = 'thank you.jpg'/>"
+ });
 
-  ("nooooo").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
-
-  ("underestimate").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
-
-  ("shade").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
-
-  ("robbed").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
-
-  ("foiled").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
+ $("#NotErika").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("NotErika").innerHTML = "<img src = 'nooooo.jpg'/>"
+ });
   
-  ("winna").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
+ $("#Amadiva").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("Amadiva").innerHTML = "<img src = 'do not underestimate.jpg'/>"
+ });
 
-  ("bttm3").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
+ $("#NotAmadiva").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("NotAmadiva").innerHTML = "<img src = 'shade.jpg'/>"
+ });
 
-  ("haha").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
+ $("#ManilaLuzon").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("ManilaLuzon").innerHTML = "<img src = 'no longer robbed.jpg'/>"
+ });
 
-  ("heartbreak").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
+ $("#NotManila").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("NotManila").innerHTML = "<img src = 'foiled again.jpg'/>"
+ });
+  
+ $("#Loris").on("click", function (){
+    console.log("CLicked");
+    document.getElementById("Loris").innerHTML = "<img src = 'win!.jpg'/>"
+ });
 
-  ("body").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
+ $("#NotLoris").on("click", function (){
+    document.getElementById("NotLoris").innerHTML = "<img src = 'bottom3.jpg'/>"
+ });
 
-  ("what").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
+ $("#KandyZyanide").on("click", function (){
+    document.getElementById("KandyZyanide").innerHTML = "<img src = 'hahahah.jpg'/>"
+ });
 
-  ("pinche").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
+ $("#NotKandy").on("click", function (){
+    document.getElementById("NotKandy").innerHTML = "<img src = 'broken-hearted.jpg'/>"
+ });
 
-  ("iwashungry").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
+ $("#AKeriaCDavenport").on("click", function (){
+    document.getElementById("AKeriaCDavenport").innerHTML = "<img src = 'body.jpg'/>"
+ });
 
-  ("mocha").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
+ $("#NotAKeria").on("click", function (){
+    document.getElementById("NotAKeria").innerHTML = "<img src = 'what is going on.jpg'/>"
+ });
 
-  ("wtf").onclick = function add(Losses, Results){
-      return Losses + Results; 
-  }; 
-    add (Losses, Results);
+ $("#PincheQueen").on("click", function (){
+    document.getElementById("PincheQueen").innerHTML = "<img src = 'queen.jpg'/>"
+ });
 
-  ("prettymonster").onclick = function add(Wins, Results){
-    return Wins + Results; 
-}; 
-  add (Wins, Results);
+ $("#NotPinche").on("click", function (){
+    document.getElementById("NotPinche").innerHTML = "<img src = 'balenciaga.jpg'/>"
+ }); 
 
-  ("dfwm").onclick = function add(Losses, Results){
-    return Losses + Results; 
-}; 
-  add (Losses, Results);
- }
+ $("#MochaDiva").on("click", function (){
+    document.getElementById("MochaDiva").innerHTML = "<img src = 'diva.jpg'/>"
+ }); 
+
+ $("#NotMocha").on("click", function (){
+    document.getElementById("NotMocha").innerHTML = "<img src = 'what.jpg'/>"
+ }); 
+
+ $("#FoxieAdjuia").on("click", function (){
+    document.getElementById("FoxieAdjuia").innerHTML = "<img src = 'pretty monster.jpg'/>"
+ });
+
+ $("#NotFoxie").on("click", function (){
+    document.getElementById("NotFoxie").innerHTML = "<img src = 'do not mess with me.jpg'/>"
+ });
+ 
 
 
-if ("#MonétXChange") {
+if ("MonétXChange") {
     Wins++
     console.log(Wins++);
 }
@@ -158,7 +143,7 @@ else {
 }
 
 
-if ("#ErikaKlash") {
+if ("ErikaKlash") {
     Wins++
     console.log(Wins++);
 }
@@ -168,7 +153,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#Amadiva") {
+if ("Amadiva") {
     Wins++
     console.log(Wins++);
 }
@@ -178,7 +163,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#ManilaLuzon") {
+if ("ManilaLuzon") {
     Wins++
     console.log(Wins++);
 }
@@ -188,7 +173,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#Loris") {
+if ("Loris") {
     Wins++
     console.log(Wins++);
 }
@@ -198,7 +183,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#KandyZyanide") {
+if ("KandyZyanide") {
     Wins++
     console.log(Wins++);
 }
@@ -208,7 +193,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#A'keriaC.Davenport") {
+if ("AKeriaCDavenport") {
     Wins++
     console.log(Wins++);
 }
@@ -218,7 +203,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#PincheQueen") {
+if ("PincheQueen") {
     Wins++
     console.log(Wins++);
 }
@@ -228,7 +213,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#MochaDiva") {
+if ("MochaDiva") {
     Wins++
     console.log(Wins++);
 }
@@ -238,7 +223,7 @@ else {
     console.log(Losses++);
 }
 
-if ("#Foxie") {
+if ("FoxieAduia") {
     Wins++
     console.log(Wins++);
 }
