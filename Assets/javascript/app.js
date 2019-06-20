@@ -1,179 +1,251 @@
-varArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10",]
+varNumbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10",]
+console.log(Numbers);
 
 varResults = [];
+console.log(Results);
 varWins = 0;
+console.log(Wins);
 varLosses = 0;
+console.log(Losses);
 varTimer = 60000;
+console.log(Timer);
 
 var reset = function(){
     document.getElementById("Wins:").innerHTML = Wins;
+    console.log(reset);
 
     document.getElementById("Losses:").innerHTML = Losses;
+    console.log(reset);
 
-    document.getElementById("Results:").innerHTML = Array;
+    document.getElementById("Results:").innerHTML = Numbers;
+    console.log(reset);
 
     document.getElementById("Clock").innerHTML = Timer;
-
+    console.log(reset);
 }
 var add = function(Array, Wins) {
-    console.log("add stuff");
+    console.log(add);
 }
 
 
 var displayResults = function() {
-    document.getElementById('Wins:').innerHTML = 'Wins: ' + win;
-    document.getElementById('Losses:').innerHTML = 'Losses: ' + loss;
+    document.getElementById('Wins:').innerHTML = 'Wins: ' + Wins;
+    console.log(displayResults);
+    document.getElementById('Losses:').innerHTML = 'Losses: ' + Losses;
+    console.log(displayResults);
     document.getElementById('Results:').innerHTML = 'Results: ' + Array;
+    console.log(displayResults);
   };
 
   var Timer = setTimeout( "setTimeFunction( )", -1000 ); 
+  console.log(Timer);
 
-  ("soak").onclick = function(){Wins++}; 
-
-  ("notturnitout").onclick = function(){Losses++}; 
-
-  ("thankyou").onclick = function(){Wins++}; 
-
-  ("nooooo").onclick = function(){Losses++}; 
-
-  ("underestimate").onclick = function(){Wins++}; 
-
-  ("shade").onclick = function(){Losses++}; 
-
-  ("robbed").onclick = function(){Wins++}; 
-
-  ("foiled").onclick = function(){Losses++};
-  
-  ("winna").onclick = function(){Wins++}; 
-
-  ("bttm3").onclick = function(){Losses++}; 
-
-  ("haha").onclick = function(){Wins++}; 
-
-  ("heartbreak").onclick = function(){Losses++}; 
-
-  ("body").onclick = function(){Wins++}; 
-
-  ("what").onclick = function(){Losses++}; 
-
-  ("pinche").onclick = function(){Wins++}; 
-
-  ("iwashungry").onclick = function(){Losses++}; 
-
-  ("mocha").onclick = function(){Wins++}; 
-
-  ("wtf").onclick = function(){Losses++}; 
-
-  ("prettymonster").onclick = function(){Wins++}; 
-
-  ("dfwm").onclick = function(){Losses++}; 
-  
-  document.onclick = function() {
+ document.onclick = function (){
     var userGuess = onclick;
     array.push(userGuess);
+    console.log(userGuess);
 
+  ("soak").onclick = function add(Wins, Results){
+      return Wins + Results; 
+  }; 
+    add (Wins, Results);
 
+  ("notturnitout").onclick = function add(Losses, Results){
+      return Losses + Results; 
+  }; 
+    add (Losses, Results);
+
+  ("thankyou").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("nooooo").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+
+  ("underestimate").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("shade").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+
+  ("robbed").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("foiled").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+  
+  ("winna").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("bttm3").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+
+  ("haha").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("heartbreak").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+
+  ("body").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("what").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+
+  ("pinche").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("iwashungry").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+
+  ("mocha").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("wtf").onclick = function add(Losses, Results){
+      return Losses + Results; 
+  }; 
+    add (Losses, Results);
+
+  ("prettymonster").onclick = function add(Wins, Results){
+    return Wins + Results; 
+}; 
+  add (Wins, Results);
+
+  ("dfwm").onclick = function add(Losses, Results){
+    return Losses + Results; 
+}; 
+  add (Losses, Results);
+ }
 
 
 if ("#MonétXChange") {
     Wins++
-    console.log("Soak it up!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("You're just not...turning it out!");
+    console.log(Losses++);
 }
 
 
 if ("#ErikaKlash") {
     Wins++
-    console.log("THANK YOU!!!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("NOOOOOO!!!");
+    console.log(Losses++);
 }
 
 if ("#Amadiva") {
     Wins++
-    console.log("Don't underestimate a babe like me!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("It's okay, you will get it right next time!");
+    console.log(Losses++);
 }
 
 if ("#ManilaLuzon") {
     Wins++
-    console.log("Finally, I am no longer robbed!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("Robbed again!");
+    console.log(Losses++);
 }
 
 if ("#Loris") {
     Wins++
-    console.log("Yes! A win for once and for all!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("Not again!");
+    console.log(Losses++);
 }
 
 if ("#KandyZyanide") {
     Wins++
-    console.log("Hahahahah!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("I'm heartbroken.");
+    console.log(Losses++);
 }
 
 if ("#A'keriaC.Davenport") {
     Wins++
-    console.log("I am the body!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("What's going on?");
+    console.log(Losses++);
 }
 
 if ("#PincheQueen") {
     Wins++
-    console.log("I am that queen!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("BALENCIAGA!!!");
+    console.log(Losses++);
 }
 
 if ("#MochaDiva") {
     Wins++
-    console.log("I maybe pretty, but I got gunz for days!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("WHAT?!");
+    console.log(Losses++);
 }
 
 if ("#Foxie") {
     Wins++
-    console.log("That's how the pretty monster does it!");
+    console.log(Wins++);
 }
 
 else {
     Losses++
-    console.log("Don't mess with me!");
+    console.log(Losses++);
 
 }
 
@@ -209,4 +281,4 @@ if (Win++) {
 
   else  { 
     alert("Ooooh, girl!")  
-  }}
+  }
