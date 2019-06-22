@@ -5,8 +5,8 @@ var wins = 0;
 console.log(wins);
 var losses = 0;
 console.log(losses);
-var timer = 60000;
-console.log(timer);
+var counter = 52000;
+console.log(counter);
 
 
 var reset = function(){
@@ -16,7 +16,7 @@ var reset = function(){
     document.getElementById("Losses:").innerHTML = losses;
     console.log(reset);
 
-    document.getElementById("Clock").innerHTML = timer;
+    document.getElementById("Clock").innerHTML = counter;
     console.log(reset);
 }
 
@@ -24,63 +24,38 @@ var reset = function(){
 var displayResults = function() {
     document.getElementById('Wins:').innerHTML = 'Wins: ' + wins;
     document.getElementById('Losses:').innerHTML = 'Losses: ' + losses;
-    document.getElementById('Results:').innerHTML = 'Results: ' + results;
+    document.getElementById('Clock').innerHTML = 'Clock ' + counter;
   };
 
-  window.onload = function() {
-    $("#stop").on("click", stop);
-    $("#refresh").on("click", refresh);
-    $("#start").on("click", start);
-  };
-
-  var clockRunning = false;
-  var intervalID;
-  var time = 60;
-  var lap = 1;
-
-  function refresh() {
-    time = 60;
-    lap = 1;
-  }
-
-  $('Clock').text(time);
-
+var counter = 52;
+var intervalID;
+console.log(counter);
 
 function start() {
-    console.log("CLicked");
-    if (!clockRunning) {
-        time = setInterval(count, 1000);
-        clockRunning = true;
-  
+    console.log("Starting ....");
+    intervalID = setInterval(countDown, 1000);
+}
+
+function countDown() {
+    // console.log("in countDown function");
+    if(counter <= 0){
+        done();
+        console.log("Times Up");
+    } else {
+        counter--;
+        console.log("Counter: " + counter);
     }
 }
-  
-function stop() {
-   if (clockRunning) { 
-    clearInterval(time);
-    time= clearInterval();
-    clockRunning = false; 
-  }
-}
 
-function count() {
-    time--;
-    //var converted = timeConverter(time);
-    console.log(time);
-    $("Clock").text(time);
+function done() {
+    clearInterval(intervalID);
+    console.log("Interval Cleared");
 }
+$("#Clock").html(counter);
 
-function timeConverter(t) { 
-    var seconds = Math.floor(t / 60);
-    var seconds = t - (seconds * 60);
-}
-  
+start();
+
     
-//var timer = setInterval(counter, 1000)
-//function counter () {
-//    console.log("countdown");   
-//}
-
  $("#MonétXChange").on("click", function (){
      console.log("CLicked");
     document.getElementById("MonétXChange").innerHTML = "<img src = 'soak it up.jpg'/>"
