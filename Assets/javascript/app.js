@@ -35,7 +35,7 @@ function start() {
     console.log("Starting ....");
     intervalID = setInterval(countDown, 1000);
 }
-
+ 
 function countDown() {
     // console.log("in countDown function");
     if(counter <= 0){
