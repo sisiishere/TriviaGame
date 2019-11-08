@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-    <title>Drag Race Franchise Quest</title>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta id="mobile" name="viewport" content="width=640, user-scalable=no" />
+        <meta id="tablet" name="viewport" content="width=768, user-scalable=no" />
+        <meta id="computer" name="viewport" content="width=980, user-scalable=no" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="<?php echo auto_version('./Assets/css/style.css'); ?>" />
+        <link
+          rel="stylesheet"
+          href="https://pagecdn.io/lib/font-awesome/5.10.0-12/css/all.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"
+        ></script>
+      </head>
 <body>
     <h1 id = "Quest" style = "background-color: #ff8993;" style = "color:#630008">The Drag Race Quest</h1>
     <br>
@@ -137,7 +167,7 @@
     
     <h2 id = "Losses:" style = "background-color: #240003;" style = "color:#b89396">LOSSES: 0 </h2>
 
-    <script src= "./Assets/javascript/app.js">
+    <script src= "<?php echo auto_version('./Assets/javascript/app.js'); ?>">
 
     </script>
 </body>
