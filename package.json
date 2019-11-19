@@ -2,7 +2,7 @@
   "name": "triviagame",
   "version": "1.0.0",
   "description": "This app is the quiz based on all things Drag Race and drag queens involved.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
