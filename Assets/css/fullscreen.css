@@ -1,0 +1,10 @@
+@media screen and (width: 768px) {
+  .container_body {
+    background-color: rgb(255, 40, 57);
+    font-family: "Pacifico", cursive;
+    font-size: 16px;
+    font-weight: 200px;
+    line-height: 20px;
+    color: rgb(196, 92, 100);
+  }
+}
